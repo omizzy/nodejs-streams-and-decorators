@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "async-streams-and-decorators": "npx babel src/async-streams-and-decorators.js --out-file dist/async-streams-and-decorators.js; node dist/async-streams-and-decorators.js",
+    "sync-streams-and-decorators": "npx babel src/sync-streams-and-decorators.js --out-file dist/sync-streams-and-decorators.js; node dist/sync-streams-and-decorators.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.27.1",
+    "@babel/core": "^7.27.1",
+    "@babel/plugin-proposal-decorators": "^7.27.1",
+    "@babel/preset-env": "^7.27.1"
+  }
+}
